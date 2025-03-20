@@ -1,0 +1,78 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+/* header p {
+    font-weight: 900;
+} */
+
+/* MAIN SECTION */
+
+.background {
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.background div {
+    position: absolute;
+    border-radius: 3rem;
+    animation: gradient 4s infinite;
+}
+
+@keyframes gradient {
+    50% {
+        transform: scale(1.3) translate(100px);
+    }
+}
+
+.background div:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    background-color: #dfe7fd;
+}
+
+.background div:nth-child(2) {
+    height: 80%;
+    width: 70%;
+    background-color: #eae4e9;
+    top: -12%;
+    right: -12%;
+    animation-delay: 2s;
+}
+
+.background div:nth-child(3) {
+    height: 50%;
+    width: 75%;
+    background-color: #e2ece9;
+    top: -10%;
+    right: -5%;
+    animation-delay: 1s;
+}
+
+.background div:nth-child(4) {
+    height: 65%;
+    width: 80%;
+    background-color: #fad2e1;
+    top: -15%;
+    right: -20%;
+    animation-delay: 3s;
+}
+
+.background div:nth-child(5) {
+    height: 70%;
+    width: 65%;
+    background-color: #fde2e4;
+    top: 0;
+    right: -50%;
+    animation-delay: 1s;
+}
+
+.background::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(200px);
+}
