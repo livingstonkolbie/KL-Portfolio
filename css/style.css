@@ -27,3 +27,39 @@ body {
   .emailIcon {
     width: 34%;
   }
+
+/* RIGHT SIDE */
+
+.btn {
+    border-radius: 14px;
+}
+
+.motivationalText {
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: larger;
+    color: rgb(64, 63, 63);
+}
+
+.catAnimation {
+    text-align: center;
+}
+
+.catHead {
+    position: absolute;
+    animation: peekaboo 4s ease-in-out infinite;
+}
+
+.table {
+    position: relative;
+    width: 16rem;
+}
+
+@media (min-width: 768px) {
+    @keyframes peekaboo {
+        0% { bottom: 65%; } /* Starting position - mostly hidden */
+        50% { bottom: 65.5%; } /* Peek up position - more visible */
+        100% { bottom: 65%; } /* Back to mostly hidden */
+      }
+}
