@@ -17,16 +17,16 @@ body {
   }
 
 .downloadIcon {
-    width: 10%;
+    width: 1rem;
 }
 
-  .githubIcon {
+.githubIcon {
     width: 33%;
-  }
+}
 
-  .emailIcon {
+.emailIcon {
     width: 34%;
-  }
+}
 
 /* RIGHT SIDE */
 
@@ -61,5 +61,20 @@ body {
         0% { bottom: 65%; } /* Starting position - mostly hidden */
         50% { bottom: 65.5%; } /* Peek up position - more visible */
         100% { bottom: 65%; } /* Back to mostly hidden */
-      }
+    }
+
+    .leftProfile {
+        border-right: 2px solid lightgrey;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+}
+
+@media (max-width: 426px) {
+    .leftProfile {
+        border-bottom: 2px solid lightgrey;
+    }
 }
