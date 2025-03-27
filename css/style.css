@@ -48,12 +48,14 @@ body {
 
 .catHead {
     position: absolute;
+    filter: drop-shadow(20px 7px 20px lightgrey);
     animation: peekaboo 4s ease-in-out infinite;
 }
 
 .table {
     position: relative;
     width: 16rem;
+    filter: drop-shadow(20px 7px 5px lightgrey);
 }
 
 @media (min-width: 768px) {
