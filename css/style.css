@@ -58,6 +58,10 @@ body {
     filter: drop-shadow(20px 7px 5px lightgrey);
 }
 
+span {
+    font-weight: 600;
+}
+
 @media (min-width: 768px) {
     @keyframes peekaboo {
         0% { bottom: 65%; } /* Starting position - mostly hidden */
