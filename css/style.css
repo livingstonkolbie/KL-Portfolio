@@ -34,11 +34,21 @@ body {
 
 /* CYBERSECURITY */
 
+.aboutMe p {
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
 .cyberImage {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     align-content: center;
+}
+
+.billieHoliday {
+    font-weight: 600;
+    font-style: normal;
 }
 
 span {
