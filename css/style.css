@@ -3,6 +3,8 @@ body {
     color: black;
   }
 
+/* LEFT SIDE */
+
   .leftProfile {
     border-right: 2px solid lightgrey;
   }
@@ -30,41 +32,15 @@ body {
 
 /* RIGHT SIDE */
 
-.btn {
+/* .btn {
     border-radius: 14px;
-}
+} */
 
-
-/* CAT ANIMATION */
-.motivationalText {
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: larger;
-    color: rgb(64, 63, 63);
-}
-
-.catAnimation {
-    text-align: center;
-}
-
-.catHead {
-    position: absolute;
-    filter: drop-shadow(20px 7px 20px lightgrey);
-    animation: peekaboo 4s ease-in-out infinite;
-}
-
-.table {
-    position: relative;
-    width: 16rem;
-    filter: drop-shadow(20px 7px 5px lightgrey);
-}
+/* CYBERSECURITY */
 
 span {
     font-weight: 600;
 }
-
-/* CYBERSECURITY */
 
 .cyberImage {
     border: 1px solid #ddd;
@@ -74,11 +50,6 @@ span {
 }
 
 @media (min-width: 768px) {
-    @keyframes peekaboo {
-        0% { bottom: 65%; } /* Starting position - mostly hidden */
-        50% { bottom: 65.5%; } /* Peek up position - more visible */
-        100% { bottom: 65%; } /* Back to mostly hidden */
-    }
 
     .leftProfile {
         border-right: 2px solid lightgrey;
@@ -86,11 +57,11 @@ span {
         top: 0;
         height: 100vh;
         overflow-y: auto;
-    }
-    
+    }    
 }
 
 @media (max-width: 426px) {
+
     .leftProfile {
         border-bottom: 2px solid lightgrey;
     }
