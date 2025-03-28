@@ -32,21 +32,17 @@ body {
 
 /* RIGHT SIDE */
 
-/* .btn {
-    border-radius: 14px;
-} */
-
 /* CYBERSECURITY */
-
-span {
-    font-weight: 600;
-}
 
 .cyberImage {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     align-content: center;
+}
+
+span {
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
