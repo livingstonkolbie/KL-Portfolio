@@ -10,7 +10,8 @@
 <body>
   <main role="main">
     <div class="container-fluid min-vh-100">
-      <div class="row min-vh-100">
+      <div class="row min-vh-100">        
+          <!-- LEFT SIDE START -->
         <div class="leftProfile col-md-5 text-black p-4 d-flex flex-column">
 
           <div class="text-center mb-4">
@@ -27,9 +28,9 @@
               <span class="badge rounded-pill text-bg-success">Available to work</span>
           </div>
               
-          <div class="d-flex justify-content-center gap-3 mb-4">
-            <a href="#" class="btn btn-outline-dark">
-              <img class="downloadIcon" src="./images/download-icon.png" alt="download icon">Resume
+          <div class="d-flex justify-content-center gap-3 my-4 text-center align-items-center">
+            <a href="#">
+              <img class="downloadIcon" src="./images/cv-icon.png" alt="download icon">
             </a>
             <a href="#">
               <img class="githubIcon" src="./images/github-icon.png" alt="github icon">
@@ -39,81 +40,137 @@
             </a>
           </div>
 
-        </div>
-          
-          <!-- RIGHT SIDE-->
-        
+        </div>          
+          <!-- RIGHT SIDE START -->        
         <div class="col-md-7 text-black p-4 overflow-auto aboutMe">
             <h3 class="mb-4">About Me</h3>
 
             <p>The difficult I'll do right now. The impossible will take a while.</p>
-            <p class="billieHoliday"></p>-Billie Holiday</p>
+            <p class="billieHoliday">- Billie Holiday</p>
 
             <h3 class="mt-5 mb-4">Projects</h3>
             
             <!-- FOR THIS STUFF BELOW, GO LOOK AT CARDS ON BOOTSTRAP (Navigation) -->
             <div class="row">
                 <div class="card text-center mb-4">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
+                    <div class="card-header bg-transparent">
+                      <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item mx-1">
                           <a class="nav-link active" href="#">Web Development</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                          <a class="nav-link more" href="#">More</a>
                         </li>
                       </ul>
                     </div>
 
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="row">
+                          <div class="col-6 projectImage">
+                              <a href="#colorfulFlat">
+                                <img class="img-fluid" src="./images/colorful-flat-image.png" alt="image of top of colorful flat template">
+                              </a>
+                          </div>
+                          
+                          <div class="col-6 projectImage">
+                            <a href="#bloom">
+                              <img class="img-fluid" src="./images/bloom-image.png" alt="image of top of bloom template">
+                            </a>
+                          </div>
+                      </div>
                     </div>
+
+                      <p class="card-text mb-3"><span>Clean</span> and <span>Responsive</span> Websites</p>
+
+                      <div class="d-flex flex-wrap gap-2 pb-3">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">Bootstrap</span>
+                    </div>
+
+                  </div>
+
+                    
                 </div>
 
                 <div class="card text-center">
-                    <div class="card-header">
-                      <ul class="nav nav-pills card-header-pills">
+                    <div class="card-header bg-transparent">
+                      <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item mx-1">
-                          <a class="nav-link active bg-danger" href="#">Cybersecurity</a>
+                          <a class="nav-link active" href="#">Cybersecurity</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">See All</a>
+                          <a class="nav-link more" href="#">More</a>
                         </li>
                       </ul>
                     </div>
                     
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-6 cyberImage">
+                            <div class="col-6 projectImage">
                                 <a href="#tor">
                                   <img class="img-fluid torHover" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor logo with the onion and crosshair">
                                 </a>
                             </div>
                             
-                            <div class="col-6 cyberImage">
-                                <img class="img-fluid" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6" alt="an image of a vulnerability scan management program layout">
-                              </div>
+                            <div class="col-6 projectImage">
+                                <a href="#tenable">
+                                  <img class="img-fluid" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6" alt="an image of a vulnerability scan management program layout">
+                                </a>
+                            </div>
                         </div>
-                        <p class="card-text mt-3"><span>Threat Hunting</span> and <span>Vulnerability Management</span> Experience</p>
+                        <p class="card-text mt-3"><span>Threat Hunting</span> and <span>Vulnerability Management</span></p>
+
+                        <div class="d-flex flex-wrap gap-2">
+                          <span class="badge text-bg-danger">Azure</span>
+                          <span class="badge text-bg-danger">Tenable</span>
+                          <span class="badge text-bg-danger">PowerShell</span>
+                      </div>
+
                     </div>
                 </div>
-            </div>
-            
-            
-            <h3 class="mt-5 mb-4">Skills</h3>
-            <div class="mb-3">
-                <h5>Web Development</h5>
-                <div class="d-flex flex-wrap gap-2">
-                    <span class="badge text-bg-primary">HTML</span>
-                    <span class="badge text-bg-primary">CSS</span>
-                    <span class="badge text-bg-primary">Bootstrap</span>
+
+                <h3 class="mt-5 mb-4">Currently</h3>
+                <div class="row">
+                  <div class="col-3">
+                    <img class="img-fluid" src="./images/cyber-range-img.png" alt="image of the cyber range hero picture">
+                  </div>
+                  <div class="col-9">
+                    <p>The Cyber Range | Cybersecurity Internship</p>
+                  </div>
                 </div>
-            </div>
+
+                <div class="row">
+                  <div class="col-3">
+                    <img class="img-fluid" src="./images/mscoding-logo.png" alt="ms coding academies logo">
+                  </div>
+                  <div class="col-9">
+                    <p>Mississippi Coding Academies | Full-Stack Web Development Program | Expected 2025</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-3">
+                    <img class="img-fluid" src="./images/security-plus-img.png" alt="security plus logo">
+                  </div>
+                  <div class="col-9">
+                    <p>Security+ | Expected 5/2025</p>
+                  </div>
+                </div>
+
+                <h3 class="mt-5 mb-4">Education</h3>
+                <div class="row">
+                  <div class="col-3 text-center">
+                    <img class="img-fluid" src="./images/msu-logo.png" alt="mississippi state university logo">
+                  </div>
+                  <div class="col-9">
+                    <p>BA Philosophy | Mississippi State University</p>
+                    <p>2011-2015</p>
+                  </div>
+                </div>
+
+
+            </div>            
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f7ff;
+    background-color: #ffffff;
     color: black;
   }
 
@@ -19,7 +19,7 @@ body {
   }
 
 .downloadIcon {
-    width: 1rem;
+    width: 33%;
 }
 
 .githubIcon {
@@ -32,6 +32,11 @@ body {
 
 /* RIGHT SIDE */
 
+.billieHoliday {
+    font-weight: bold;
+    text-align: end;
+}
+
 /* CYBERSECURITY */
 
 .aboutMe p {
@@ -39,7 +44,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-.cyberImage {
+.projectImage {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -53,6 +58,10 @@ body {
 
 span {
     font-weight: 600;
+}
+
+.more {
+    color: black;
 }
 
 @media (min-width: 768px) {
