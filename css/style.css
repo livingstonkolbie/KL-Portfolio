@@ -83,6 +83,14 @@ span {
     font-size: medium;
 }
 
+.secPlusLg {
+    width: 71%;
+}
+
+.cyberRangeLg {
+    border-radius: 8px;
+}
+
 @media (min-width: 768px) {
 
     .leftProfile {
