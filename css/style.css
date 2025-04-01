@@ -1,13 +1,13 @@
 body {
     background-color: #ffffff;
     color: black;
-  }
+}
 
 /* LEFT SIDE */
 
-  .leftProfile {
+.leftProfile {
     border-right: 2px solid lightgrey;
-  }
+}
 
 .rounded-circle {
     width: 150px;
@@ -32,17 +32,30 @@ body {
 
 /* RIGHT SIDE */
 
+h3 {
+    padding-bottom: 3px;
+    border-bottom: 1px solid lightgray;
+}
+
+.quote {
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
 .billieHoliday {
     font-weight: bold;
     text-align: end;
 }
 
-/* CYBERSECURITY */
-
-.aboutMe p {
-    font-style: italic;
-    letter-spacing: 0.5px;
+.billieHoliday {
+    font-weight: 600;
+    font-style: normal;
 }
+
+.cardTitle {
+    font-weight: 500;
+}
+
 
 .projectImage {
     border: 1px solid #ddd;
@@ -51,10 +64,6 @@ body {
     align-content: center;
 }
 
-.billieHoliday {
-    font-weight: 600;
-    font-style: normal;
-}
 
 span {
     font-weight: 600;
@@ -63,6 +72,8 @@ span {
 .more {
     color: black;
 }
+
+
 
 @media (min-width: 768px) {
 
@@ -73,11 +84,28 @@ span {
         height: 100vh;
         overflow-y: auto;
     }    
+
+    .cyberRange {
+        padding: 0;
+        align-content: center;
+    }
 }
 
 @media (max-width: 426px) {
 
     .leftProfile {
         border-bottom: 2px solid lightgrey;
+    }
+
+    .cyberRange {
+        padding: 0;
+        align-content: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .secPlus {
+        width: 83%;
+        margin-left: 10px;
     }
 }

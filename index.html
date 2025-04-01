@@ -32,10 +32,10 @@
             <a href="#">
               <img class="downloadIcon" src="./images/cv-icon.png" alt="download icon">
             </a>
-            <a href="#">
+            <a href="https://github.com/livingstonkolbie" target="blank">
               <img class="githubIcon" src="./images/github-icon.png" alt="github icon">
             </a>
-            <a href="#">
+            <a href="mailto:livingston.kolbie@gmail.com">
               <img class="emailIcon" src="./images/email-icon.png" alt="email envelope icon">
             </a>
           </div>
@@ -45,21 +45,22 @@
         <div class="col-md-7 text-black p-4 overflow-auto aboutMe">
             <h3 class="mb-4">About Me</h3>
 
-            <p>The difficult I'll do right now. The impossible will take a while.</p>
-            <p class="billieHoliday">- Billie Holiday</p>
+            <section class="container-fluid">
+              <p class="quote">The difficult I'll do right now. The impossible will take a while.</p>
+              <p class="billieHoliday">- Billie Holiday</p>
+            </section>
 
-            <h3 class="mt-5 mb-4">Projects</h3>
-            
-            <!-- FOR THIS STUFF BELOW, GO LOOK AT CARDS ON BOOTSTRAP (Navigation) -->
+            <h3 class="mt-5 mb-4">Projects</h3>            
+            <!-- START PROJECTS -->
             <div class="row">
                 <div class="card text-center mb-4">
                     <div class="card-header bg-transparent">
                       <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item mx-1">
-                          <a class="nav-link active" href="#">Web Development</a>
+                          <a class="nav-link active cardTitle" href="#">Web Development</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link more" href="#">More</a>
+                          <a class="nav-link more" href="https://github.com/livingstonkolbie" target="blank">More</a>
                         </li>
                       </ul>
                     </div>
@@ -67,13 +68,13 @@
                     <div class="card-body">
                       <div class="row">
                           <div class="col-6 projectImage">
-                              <a href="#colorfulFlat">
+                              <a href="https://github.com/livingstonkolbie/Colorful-Flat-Template" target="blank">
                                 <img class="img-fluid" src="./images/colorful-flat-image.png" alt="image of top of colorful flat template">
                               </a>
                           </div>
                           
                           <div class="col-6 projectImage">
-                            <a href="#bloom">
+                            <a href="https://github.com/livingstonkolbie/Bloom-Template-Bootstrap" target="blank">
                               <img class="img-fluid" src="./images/bloom-image.png" alt="image of top of bloom template">
                             </a>
                           </div>
@@ -97,10 +98,10 @@
                     <div class="card-header bg-transparent">
                       <ul class="nav nav-tabs card-header-tabs">
                         <li class="nav-item mx-1">
-                          <a class="nav-link active" href="#">Cybersecurity</a>
+                          <a class="nav-link active cardTitle" href="#">Cybersecurity</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link more" href="#">More</a>
+                          <a class="nav-link more" href="https://github.com/livingstonkolbie" target="blank">More</a>
                         </li>
                       </ul>
                     </div>
@@ -108,13 +109,13 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-6 projectImage">
-                                <a href="#tor">
+                                <a href="https://github.com/livingstonkolbie/threat-hunting-scenario-tor" target="blank">
                                   <img class="img-fluid torHover" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor logo with the onion and crosshair">
                                 </a>
                             </div>
                             
                             <div class="col-6 projectImage">
-                                <a href="#tenable">
+                                <a href="https://github.com/livingstonkolbie/vulnerability-management-program" target="blank">
                                   <img class="img-fluid" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6" alt="an image of a vulnerability scan management program layout">
                                 </a>
                             </div>
@@ -125,49 +126,70 @@
                           <span class="badge text-bg-danger">Azure</span>
                           <span class="badge text-bg-danger">Tenable</span>
                           <span class="badge text-bg-danger">PowerShell</span>
+                          <span class="badge text-bg-danger">Defender for Endpoint</span>
+                          <span class="badge text-bg-danger">Sentinel</span>
+                          <span class="badge text-bg-danger">KQL</span>
                       </div>
 
                     </div>
                 </div>
 
                 <h3 class="mt-5 mb-4">Currently</h3>
-                <div class="row">
-                  <div class="col-3">
-                    <img class="img-fluid" src="./images/cyber-range-img.png" alt="image of the cyber range hero picture">
+                <!-- START CURRENTLY -->
+                <section class="container-fluid">
+                  <div class="row">
+                    <div class="col-3 cyberRange">
+                      <a href="https://joshmadakor.tech/cyber/" target="blank">
+                        <img class="img-fluid" src="./images/cyber-range-img.png" alt="image of the cyber range hero picture">
+                      </a>
+                    </div>
+                    <div class="col-9">
+                      <p class="m-0">LogN Pacific | The Cyber Range</p>
+                      <p>Cybersecurity Internship</p>
+                    </div>
                   </div>
-                  <div class="col-9">
-                    <p>The Cyber Range | Cybersecurity Internship</p>
+  
+                  <div class="row py-lg-3">
+                    <div class="col-3 p-0">
+                      <a href="https://mscoding.org/" target="blank">
+                        <img class="img-fluid" src="./images/mscoding-logo.png" alt="ms coding academies logo">
+                      </a>
+                    </div>
+                    <div class="col-9">
+                      <p class="m-0">Mississippi Coding Academies</p>
+                      <p>Full-Stack Web Developer Program</p>
+                    </div>
                   </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-3">
-                    <img class="img-fluid" src="./images/mscoding-logo.png" alt="ms coding academies logo">
-                  </div>
-                  <div class="col-9">
-                    <p>Mississippi Coding Academies | Full-Stack Web Development Program | Expected 2025</p>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-3">
-                    <img class="img-fluid" src="./images/security-plus-img.png" alt="security plus logo">
-                  </div>
-                  <div class="col-9">
-                    <p>Security+ | Expected 5/2025</p>
-                  </div>
-                </div>
-
+  
+                  <div class="row">
+                    <div class="col-3">
+                      <a href="https://www.comptia.org/certifications/security" target="blank">
+                        <img class="img-fluid secPlus" src="./images/security-plus-img.png" alt="security plus logo">
+                      </a>
+                    </div>
+                    <div class="col-9">
+                      <p class="m-0">Security+</p>
+                      <p>Expected 6/2025</p>
+                    </div>
+                  </div>                  
+                </section>
+                
                 <h3 class="mt-5 mb-4">Education</h3>
-                <div class="row">
-                  <div class="col-3 text-center">
-                    <img class="img-fluid" src="./images/msu-logo.png" alt="mississippi state university logo">
+                <!-- START EDUCATION -->
+                <section class="container-fluid education">
+                  <div class="row">
+                    <div class="col-3 text-center">
+                      <a href="https://www.philosophyandreligion.msstate.edu/" target="blank">
+                        <img class="img-fluid" src="./images/msu-logo-2.png" alt="mississippi state university logo">
+                      </a>
+                    </div>
+                    <div class="col-9">
+                      <p class="m-0">BA Philosophy | Mississippi State University</p>
+                      <p>2011-2015</p>
+                    </div>
                   </div>
-                  <div class="col-9">
-                    <p>BA Philosophy | Mississippi State University</p>
-                    <p>2011-2015</p>
-                  </div>
-                </div>
+                </section>
+
 
 
             </div>            
